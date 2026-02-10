@@ -21,7 +21,4 @@ label.pack(padx=(10), pady=(10), anchor="w")
 label=tk.Label(window, text="     Life is a gamble so play it wisely.", font=("Time New Roman", 14,"italic"), fg="black", bg="pink")
 label.pack(anchor="w")
 
-
-
-
 window.mainloop()
