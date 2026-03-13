@@ -40,7 +40,6 @@ def divide():
     result=num1/num2
     label.config(text=f"The quotient of {num1} / {num2} = {result}")
 
-
 btn1=tk.Button(window,text="Add",command=add)
 btn1.place(x=45,y=110)
 
@@ -52,4 +51,5 @@ btn3.place(x=35,y=150)
 
 btn4=tk.Button(window,text="Division",command=divide)
 btn4.place(x=126,y=150)
+
 window.mainloop()
