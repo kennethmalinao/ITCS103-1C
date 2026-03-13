@@ -5,7 +5,7 @@ window.title("Simple Calculator")
 window.geometry("200x200")
 window.config(bg="lightblue")
 
-label=tk.Label(window,text="Simple Calculation",width=28,height=2)
+label=tk.Label(window,text="Simple Calculator",width=28,height=2)
 label.grid(row=0,column=0,columnspan=2)
 
 tk.Label(window,text="Enter 1st Number:").place(x=10,y=45)
@@ -53,3 +53,4 @@ btn4=tk.Button(window,text="Division",command=divide)
 btn4.place(x=126,y=150)
 
 window.mainloop()
+
